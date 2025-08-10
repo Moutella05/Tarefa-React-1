@@ -1,0 +1,14 @@
+.Main {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00274F;
+    padding: 2rem;
+}
+
+.Cards{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

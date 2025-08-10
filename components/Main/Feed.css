@@ -1,0 +1,94 @@
+.container{
+    background-color: #0E0E1B; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.feed-container {
+    padding: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.Info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.Img img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.Info-text h4 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profissao {
+    margin: 0;
+    color: #b3b3b3;
+    font-size: 16px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tempo {
+    color: #888;
+    font-size: 16px;
+}
+
+.Comment p {
+    margin: 10px 0px;
+    margin-left: 10px;
+    color: #d9d9d9;
+    font-size: 16px;
+}
+
+.Commit {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Commit h5 {
+    margin-bottom: 8px;
+    color: white
+}
+
+.Commit textarea {
+    
+    height: 80px;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px 0px;
+    margin-right: 20px;
+}
+
+.Commit button {
+    width: 100px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.Commit button:hover {
+    background-color: #155ab6;
+}
